@@ -38,3 +38,22 @@ iframe#tela{
     width: 267px;
     height: 471px;
 }
+section#redes{
+    text-align: right;
+}
+section#redes img{
+    width: 50px;
+    margin-top: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.493);
+    box-sizing: border-box;
+}
+section#redes img:hover{
+    border: 3px solid rgba(255, 255, 255, 0.568);
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
